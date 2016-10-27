@@ -1,0 +1,25 @@
+{
+  "name": "rot13",
+  "version": "1.0.0",
+  "description": "Simple Rot13 implementation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guioconnor/ebg13.git"
+  },
+  "keywords": [
+    "rot13",
+    "cryptography",
+    "cypher",
+    "math"
+  ],
+  "author": "Guilherme Zühlke O'Connor",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/guioconnor/ebg13/issues"
+  },
+  "homepage": "https://github.com/guioconnor/ebg13#readme"
+}
