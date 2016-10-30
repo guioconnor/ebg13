@@ -1,5 +1,5 @@
 {
-  "name": "rot13",
+  "name": "ebg13",
   "version": "1.0.0",
   "description": "Simple Rot13 implementation",
   "main": "index.js",
