@@ -20,6 +20,10 @@ function rotate(c) {
 
 
 function rot13(message) {
+  if(typeof message !== 'string') {
+    return '';
+  }
+
   return message.split('').map(convertToCharCode).map(rotate).map(convertToChar).join('');
 }
 
