@@ -1,6 +1,6 @@
 {
   "name": "ebg13",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple Rot13 implementation",
   "main": "index.js",
   "scripts": {
