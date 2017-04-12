@@ -2,6 +2,8 @@
 
 Simple Rot13 implementation
 
+[![Build Status](https://travis-ci.org/guioconnor/ebg13.svg?branch=master)](https://travis-ci.org/guioconnor/ebg13)
+
 ## Basic Rot13 (a.k.a symmetric Caesar Cipher)
 
 ### Example use
