@@ -1,5 +1,13 @@
 language: node_js
 node_js:
-  - "node"
-  - "7"
-  - "6"
+- node
+- '7'
+- '6'
+deploy:
+  provider: npm
+  email: guioconnor@gmail.com
+  api_key:
+    secure: JyXKYCVCHvttqyIjUYDzekkfgum09ZmFoHCyTW9wgFubbKJsMRFDpzQl7bpkCJCvCissABo2YqKDFp+JIdnfAWlcGvLjdmTBYv3OP2efu1DjNe3WGIXNYpCdsXwbwb89XUvsdpcyoEnQqfi/NDT18AF3hpQzo6lkgVt49leRoBSnDdf5CbbyklHvJFAP8DR768fNG4HovntzPbtqdobCb745qMjQrBGlG4ImW6+EBBdGBeo8Qdzlz1Kp88MAwkQiMBpuPzmhDXfmRGyiOzl36jekhx8pLgPob9oJxmHsSnJprIoyWUd93mvh3ozkAa+2bSPYVqcXMFN61oL5ve2av0YGIZ1PLA+t1m6HBDLcy74PmnAHBkFwK+bidoI4FTSB3ZgQF3rSBJfzNMUyYciYhDD2tRr4xeyV97kM3EPyBjbkxaqnXeNj7DM9E3NgEFLRdLQt2DssDpxyunwBExXudin/fq3OK0K/q2HcGVKXJ+9l6257DfYmSJNaYyMxN7eUbsw1BfWPN9w3+uX9w1hmv2YOQl1qqekYOsPJESeN5vse5VEwVb72qLGc7LgGOYvUjbcXm7+lHeeSQULkddiSn3MFfWmBngGd42qBeBLBdHvNslSX25iyO/R4U5Coz1TAG4oQ3oeNfrq3h/GJODRyXboYHHoLaq18wJxZC0MVHGo=
+  on:
+    tags: true
+    repo: guioconnor/ebg13
