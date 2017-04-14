@@ -15,7 +15,7 @@ describe('rot13', () => {
       const decodedMessage = rot13(encodedMessage);
       expect(decodedMessage).toBe(secretMessage);
     });
-  })
+  });
 
   describe('when using an assymetric key', () => {
     it('should encode a string using caesar cipher when using a key', () => {
@@ -31,7 +31,7 @@ describe('rot13', () => {
       const decodedMessage = rot13(encodedMessage, 14);
       expect(decodedMessage).toBe(secretMessage);
     });
-  })
+  });
 
   describe('when using non alphabetic chars', () => {
     describe('when message is not a string', () => {
@@ -81,5 +81,4 @@ describe('rot13', () => {
       });
     });
   });
-
-})
+});

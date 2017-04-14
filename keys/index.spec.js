@@ -27,9 +27,9 @@ describe('keys', () => {
     });
 
     it('should not return 0, 26 or 13 as a key', () => {
-      for(let i = 0 ; i < 50 ; i++) {
+      for (let i = 0; i < 50; i++) {
         const actual = keys.generate();
- 
+
         expect(actual.private).not.toBe(0);
         expect(actual.private).not.toBe(13);
         expect(actual.private).not.toBe(26);
@@ -39,5 +39,4 @@ describe('keys', () => {
       }
     });
   });
-
 });

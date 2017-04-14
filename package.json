@@ -4,7 +4,8 @@
   "description": "Simple Rot13 implementation",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "eslint . && jest",
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
@@ -27,6 +28,9 @@
   },
   "homepage": "https://github.com/guioconnor/ebg13#readme",
   "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb-base": "^11.1.3",
+    "eslint-plugin-import": "^2.2.0",
     "jest": "^19.0.2"
   }
 }
