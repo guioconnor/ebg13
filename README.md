@@ -57,11 +57,54 @@ console.log('Decoded message:' + caesar(encodedMessage, myKeys.private));
 
 ```
 
+## CLI
+
+From version 1.2.5 ebg13 can be used as a command line tool
+
+### Usage
+
+```
+ ___________________________________________________________________________________________
+/                                                                                           \
+| Usage: ebg13 [--generate-keys] [--seed seed] [--key key] message1 [message2 [...]]        |
+|                                                                                           |
+|   --generate-keys - Generages a pair of assymetric keys to be used for encoding/deconding |
+|   --seed seed - uses the seed as the private key and calculates a public key from it      |
+|   --key key - [optional] encoding/decoding key (it defaults to 13)                        |
+|   message1, message2, ... - a list of at least one message to be encoded/decoded          |
+|                                                                                           |
+| A non empty list og messages is required for encoding/decoding but is                     |
+| not necessary when generating keys.                                                       |
+\                                                                                           /
+ -------------------------------------------------------------------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+```
+
+### examples
+```
+$ ebg message --key 2
+oguucig
+$ ebg message --generate-keys
+{ private: 10, public: 16 }
+$ ebg message --generate-keys --seed 1
+{ private: 1, public: 25 }
+$ ebg message secret "secret message"
+zrffntr
+frperg
+frperg zrffntr
+```
+
 ## Disclaimer
 
 Rot13 is a playful cryptographic algorithm, it's fun, it's even insighful but it's of absolutely no use in practice, it does not provide any level of security. Do not use is on any data that you are not comfortable sharing publicly. You have been warned.
 
 ## ChangeLog
 
+### 1.2.5
+* CLI interface
 ### 1.2.0
 * Introduction of assymetric keys
