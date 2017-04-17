@@ -59,7 +59,7 @@ console.log('Decoded message:' + caesar(encodedMessage, myKeys.private));
 
 ## CLI
 
-From version 1.2.5 ebg13 can be used as a command line tool
+From version 1.3.0 ebg13 can be used as a command line tool
 
 ### Usage
 
@@ -104,7 +104,7 @@ Rot13 is a playful cryptographic algorithm, it's fun, it's even insighful but it
 
 ## ChangeLog
 
-### 1.2.5
+### 1.3.0
 * CLI interface
 ### 1.2.0
 * Introduction of assymetric keys

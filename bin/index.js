@@ -6,8 +6,6 @@ const argv = require('minimist')(process.argv.slice(2));
 const chalk = require('chalk');
 const cowsay = require('cowsay');
 
-const description = chalk.inverse;
-
 if (argv['generate-keys']) {
   const seed = argv.seed;
   console.log(keys.generate(seed));
