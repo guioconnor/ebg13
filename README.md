@@ -20,7 +20,7 @@ var encodedMessage = ebg13('secret message');
 console.log('Decoded message:' + ebg13(encodedMessage));
 ```
 
-## Assymetric keys
+## Asymmetric keys
 
 As Rot13 is just a special case of
 [Caesar Cipher](https://en.wikipedia.org/wiki/Caesar_cipher)
